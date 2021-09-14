@@ -1,2 +1,16 @@
-hello welcome to jenkins
-this group 9 
+node {
+
+    stage('Build') {
+        echo "BUILD sucessfull"
+    }
+
+    stage('Testing') {
+        echo "Testing sucessfull"
+    }
+
+    stage('Deploy') {
+        echo "Deploy sucessfulll"        
+    }
+
+
+}
