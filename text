@@ -3,7 +3,7 @@ node {
     stage('Build') {
         echo "BUILD sucessfull "
         echo "group 9 welcome to jenkins "
-       "
+       
     }
 
     stage('Testing') {
